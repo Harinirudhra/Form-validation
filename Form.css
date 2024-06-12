@@ -1,0 +1,102 @@
+.form-container{
+  margin: 100px auto;
+  width: 700px;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.close-btn{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 1.5rem;
+    z-index: 1;
+    color: black;
+    cursor: pointer;
+}
+
+.form-content-left{
+    background-color: rgb(231, 74, 245);
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    background-image: url('./Assets/bacground_image2.jpg');
+}
+
+.form-img{
+   width: 70%;
+   height: 70%;
+   position: relative;
+   top: 10%;
+   left: 10%;
+   
+}
+
+.form-content-right{
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.form h1{
+    font-size: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: black;
+}
+.form-inputs{
+    margin-bottom: 0.5rem;
+    width: 80%;
+    
+}
+.form-inputs{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: brown;
+}
+.form-label{
+    display: inline;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: black;
+}
+.form-input{
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    height: 30px;
+    width: 75%;
+    border-radius: 15px;
+    border-color: rgb(231, 74, 245);
+    
+}
+.form-input-btn
+{
+    height: 30px;
+    width: 70px;
+    margin-right: 60px;
+    background-color:  rgb(231, 74, 245);
+    border-radius: 10px;
+    border-color: white;
+    font-weight: 150;
+
+}
+
